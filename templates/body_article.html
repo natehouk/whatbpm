@@ -40,10 +40,6 @@
                         </div>
                     </div>
                 </section>
-                <p>If you find it useful, you may:</p>
-                <a {% if loop.index == 1 %}itemprop="significantLink"{% endif %} href="{{ bmc_url | safe }}" target="_blank">
-                    <img src="{{ bmc_image_url | safe }}" alt="Buy Me A Coffee">
-                </a>
                 <p>Based on <a itemprop="isBasedOn" href="{{ meta.based_on }}" target="_blank">{{ genre_name }} Beatport Top 100</a></p>
             </div>
         </article>
